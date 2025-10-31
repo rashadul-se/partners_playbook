@@ -1,0 +1,351 @@
+id: relationship-game-theory-playbook
+title: "The Courtship Game: A Strategic Analysis"
+version: 1.0
+
+players:
+  player_a:
+    identity: "Man (Interchangeable)"
+    archetype: "Power Strategist"
+    
+  player_b:
+    identity: "Woman (Interchangeable)"
+    archetype: "Quality Curator"
+
+strategies:
+  player_a_tactics:
+    resources:
+      - power_base: "Professional network, financial leverage"
+      - social_capital: "Friends & family influence"
+      - institutional: "Work colleagues, protocol access"
+      - dark_tactics: "Dirty deal making, creating dependencies"
+      - fear_mechanism: "PUNK strategy (Power, Unpredictability, Network, Knowledge)"
+      - freedom_exchange: "Security in exchange for autonomy"
+      - image_crafting:
+          pseudo_altruism: "Donations and social work"
+          reputation_building: "Philanthropic appearances"
+          vocal_virtue: "Public displays of goodness"
+      
+    objectives:
+      primary: "Win counterpart of choice"
+      secondary: "Maintain power position while appearing benevolent"
+      
+  player_b_tactics:
+    resources:
+      - social_capital: "Sorority networks, female alliances"
+      - psychological: "Emotional Intelligence (EI)"
+      - behavioral_science: "Behavioral psychology applications"
+      - economic: "Savings discipline, financial independence"
+      - lifestyle_design: "Quality of life optimization"
+      - cultural_capital: "Cultural sophistication and refinement"
+      
+    defense_mechanisms:
+      - bold_refusal: "Direct rejection of unwanted advances"
+      - strategic_ignore: "Selective attention allocation"
+      - desire_denial: "Withholding validation"
+      - long_game: "Extended timeline strategy"
+      
+    objectives:
+      primary: "Secure optimal match while maintaining autonomy"
+      secondary: "Lifestyle quality preservation"
+
+game_theory_analysis:
+  equilibrium_conditions:
+    nash_equilibrium:
+      definition: "Point where neither player can improve by unilaterally changing strategy"
+      requirements:
+        - mutual_benefit: "Both achieve acceptable utility"
+        - stable_state: "No incentive to deviate"
+        - information_symmetry: "Transparent intentions"
+        - resource_balance: "Power parity achieved"
+        
+    interchangeability_theorem:
+      rule: "Roles A and B are interchangeable when:"
+      conditions:
+        - equal_opportunity: true
+        - resource_equivalence: "Both possess comparable strategic assets"
+        - utility_alignment: "Shared value systems emerge"
+        - equilibrium_reached: "Nash equilibrium attained"
+
+  payoff_matrix:
+    scenario_cooperate_cooperate:
+      player_a_payoff: 8
+      player_b_payoff: 8
+      description: "Mutual investment, transparent intentions, shared goals"
+      outcome: "MATCHED"
+      
+    scenario_cooperate_defect:
+      player_a_payoff: 2
+      player_b_payoff: 9
+      description: "A invests genuinely, B maintains strategic distance"
+      outcome: "NOT MATCHED"
+      
+    scenario_defect_cooperate:
+      player_a_payoff: 9
+      player_b_payoff: 2
+      description: "A uses manipulation tactics, B invests emotionally"
+      outcome: "NOT MATCHED"
+      
+    scenario_defect_defect:
+      player_a_payoff: 4
+      player_b_payoff: 4
+      description: "Both play power games, neither commits"
+      outcome: "COMPLICATED"
+      
+    scenario_mixed_strategy:
+      player_a_payoff: 5
+      player_b_payoff: 6
+      description: "Intermittent cooperation, testing boundaries"
+      outcome: "CONFUSED"
+      
+    scenario_asymmetric_investment:
+      player_a_payoff: 7
+      player_b_payoff: 7
+      description: "Different but complementary investment levels"
+      outcome: "ENGAGED"
+
+game_types_identified:
+  prisoner_dilemma:
+    present_when: "Trust deficit, fear of exploitation dominates"
+    characteristics:
+      - individual_rational_choice: "Defect (protect self)"
+      - collective_optimal: "Cooperate (mutual benefit)"
+      - tension: "Self-interest vs. partnership potential"
+    
+  battle_of_sexes:
+    present_when: "Coordination problem with preference differences"
+    characteristics:
+      - both_want_relationship: true
+      - disagree_on_terms: true
+      - coordination_required: "On whose terms partnership proceeds"
+      
+  chicken_game:
+    present_when: "Brinkmanship, who yields first"
+    characteristics:
+      - ego_preservation: "Neither wants to appear desperate"
+      - swerve_or_crash: "Compromise or walk away"
+      - reputation_costs: "Social face considerations"
+      
+  stag_hunt:
+    present_when: "Trust-building phase, high reward for cooperation"
+    characteristics:
+      - high_cooperation_payoff: "Deep connection, matched partnership"
+      - safe_defection_payoff: "Stay single, avoid risk"
+      - trust_requirement: "Must believe partner will cooperate"
+      
+  repeated_game:
+    present_when: "Long-term interaction expected"
+    characteristics:
+      - reputation_effects: "Past behavior influences future play"
+      - tit_for_tat_viability: "Reciprocal strategies emerge"
+      - learning_dynamics: "Players adapt based on history"
+
+outcome_analysis:
+  matched:
+    conditions:
+      - nash_equilibrium: "Achieved at (Cooperate, Cooperate)"
+      - game_type: "Stag Hunt successfully resolved"
+      - prompt_patterns:
+        player_a: "Authentic interest, resource sharing without strings"
+        player_b: "Openness, reciprocal investment"
+      - response_patterns:
+        - consistent_positive_engagement
+        - vulnerability_exchange
+        - future_planning_discussions
+      - utility_metrics:
+        alignment: "high"
+        satisfaction: "mutual"
+        growth_potential: "positive trajectory"
+        
+  not_matched:
+    conditions:
+      - equilibrium: "None, or at (Defect, Cooperate) / (Cooperate, Defect)"
+      - game_type: "Prisoner's Dilemma dominant strategy played"
+      - prompt_patterns:
+        dominant_player: "Manipulation, strategic deception"
+        submissive_player: "Genuine investment, unreciprocated"
+      - response_patterns:
+        - asymmetric_investment
+        - exploitation_present
+        - unilateral_withdrawal
+      - utility_metrics:
+        alignment: "low"
+        satisfaction: "one-sided or mutual dissatisfaction"
+        
+  confused:
+    conditions:
+      - equilibrium: "Multiple equilibria, no clear focal point"
+      - game_type: "Mixed strategy Battle of Sexes"
+      - prompt_patterns:
+        both_players: "Inconsistent signals, unclear intentions"
+      - response_patterns:
+        - intermittent_engagement
+        - mixed_messages
+        - boundary_testing
+        - communication_ambiguity
+      - utility_metrics:
+        alignment: "unclear"
+        satisfaction: "variable, situation-dependent"
+        
+  complicated:
+    conditions:
+      - equilibrium: "Unstable, cycling between states"
+      - game_type: "Iterated Prisoner's Dilemma with learning"
+      - prompt_patterns:
+        both_players: "Strategic defection with occasional cooperation"
+      - response_patterns:
+        - on_off_pattern
+        - power_struggle
+        - mutual_manipulation
+        - investment_withdrawal_cycles
+      - utility_metrics:
+        alignment: "medium but volatile"
+        satisfaction: "peaks and valleys"
+        toxicity_risk: "high"
+        
+  engaged:
+    conditions:
+      - equilibrium: "Approaching Nash equilibrium, not yet stable"
+      - game_type: "Repeated game with emerging cooperation"
+      - prompt_patterns:
+        both_players: "Increasing investment, testing commitment"
+      - response_patterns:
+        - escalating_commitment
+        - future_orientation
+        - resource_pooling_begins
+        - family_network_integration
+      - utility_metrics:
+        alignment: "high and improving"
+        satisfaction: "strong mutual"
+        trajectory: "toward long-term partnership"
+
+decision_tree:
+  calculate_outcome:
+    step_1:
+      analyze: "Prompt frequency and content quality"
+      metrics:
+        - response_time
+        - message_depth
+        - vulnerability_level
+        - future_reference_count
+        
+    step_2:
+      analyze: "Resource deployment patterns"
+      metrics:
+        player_a:
+          - time_investment
+          - financial_gestures
+          - network_introduction
+          - authentic_vs_pseudo_altruism_ratio
+        player_b:
+          - emotional_availability
+          - lifestyle_inclusion
+          - sorority_approval_seeking
+          - savings_discussion_frequency
+          
+    step_3:
+      analyze: "Utility payoff observed"
+      calculate:
+        - individual_satisfaction_score
+        - relationship_progression_rate
+        - conflict_resolution_success
+        - goal_alignment_percentage
+        
+    step_4:
+      analyze: "Game type indicators"
+      identify:
+        - primary_game_structure
+        - strategy_patterns
+        - equilibrium_trajectory
+        
+    step_5:
+      output: "Outcome classification"
+      possibilities:
+        - matched
+        - not_matched
+        - confused
+        - complicated
+        - engaged
+
+strategic_insights:
+  power_dynamics:
+    observation: "Initial power asymmetry often leads to Prisoner's Dilemma"
+    resolution: "Path to Nash equilibrium requires power redistribution"
+    mechanism: "Mutual vulnerability exchange, resource pooling"
+    
+  pseudo_altruism_detection:
+    player_a_signals:
+      red_flags:
+        - donations_with_publicity
+        - social_work_mentioned_frequently
+        - conditional_generosity
+        - network_leverage_visible
+      green_flags:
+        - private_kindness
+        - consistent_small_gestures
+        - no_reciprocity_expectation
+        
+  lifestyle_quality_standards:
+    player_b_signals:
+      red_flags:
+        - savings_obsession_over_connection
+        - cultural_gatekeeping
+        - perpetual_dissatisfaction
+        - impossible_standards
+      green_flags:
+        - balanced_priorities
+        - appreciates_effort
+        - invests_time_quality
+        - cultural_sharing_not_testing
+        
+  equilibrium_path:
+    phase_1: "Power Game (Chicken/Prisoner's Dilemma)"
+    phase_2: "Coordination Attempt (Battle of Sexes)"
+    phase_3: "Trust Building (Stag Hunt)"
+    phase_4: "Stable Cooperation (Repeated Game with high cooperation)"
+    phase_5: "Nash Equilibrium (Matched/Engaged)"
+
+recommendations:
+  for_players:
+    universal:
+      - "Recognize game structure you're in"
+      - "Authentic signals beat strategic manipulation long-term"
+      - "Nash equilibrium requires mutual benefit recognition"
+      - "Power games delay or prevent optimal outcomes"
+      - "Interchangeability emerges through equality, not dominance"
+      
+    for_player_a:
+      - "Replace PUNK tactics with genuine vulnerability"
+      - "Pseudo-altruism is detectable; authentic care isn't"
+      - "Network leverage creates resentment, not attraction"
+      - "Freedom restriction triggers exit strategies"
+      
+    for_player_b:
+      - "Strategic refusal can become self-sabotage"
+      - "Cultural gatekeeping tests patience limits"
+      - "EI should build connection, not create distance"
+      - "Long-game can become no-game"
+      
+  meta_strategy:
+    optimal_approach: "Conditional cooperation with gradual trust increase"
+    key_principle: "Tit-for-tat with forgiveness"
+    success_metric: "Movement toward (Cooperate, Cooperate) equilibrium"
+    timeline: "Patience with progress indicators, not indefinite waiting"
+
+conclusion:
+  equilibrium_theorem: |
+    When Player A and Player B achieve resource parity,
+    abandon manipulation for authenticity,
+    align utilities through honest communication,
+    and recognize mutual benefit exceeds individual strategy payoffs,
+    they reach Nash equilibrium where roles become interchangeable
+    and the game transforms from competitive to cooperative.
+    
+  final_calculation: |
+    Outcome = f(Prompt_Quality × Response_Authenticity × Resource_Balance × Time_Investment)
+    
+    Where:
+    - Matched: f > 0.8, equilibrium stable
+    - Engaged: 0.6 < f ≤ 0.8, equilibrium approaching
+    - Complicated: 0.4 < f ≤ 0.6, cycling behavior
+    - Confused: 0.2 < f ≤ 0.4, no clear strategy
+    - Not Matched: f ≤ 0.2, divergent utilities
